@@ -1,7 +1,7 @@
 # Movie-Comments-Analytics-based-on-Nezha
 # 中文
 通过爬取关于哪吒的豆瓣影评，获取数据后，利用jieba分词和wordcloud，产生云图，得到本电影影评的最直观关键词。
-![image](/images/pic.png)
+![image](/images/pic.png)<br>
 借助SnowNLP情感分析得出电影评论情感分析为：85 , 非常建议观看.
 
 # English
