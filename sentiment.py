@@ -3,7 +3,7 @@
 from snownlp import SnowNLP 
 import pandas as pd 
 
-data = pd.read_csv("duye_comments.csv")
+data = pd.read_csv("all_comments.csv")
 
 score = 0
 for d in data['comments']:
