@@ -96,7 +96,7 @@ class nezha():
         # 用字典包装
         comment_dic = {'user': users, 'star': stars, 'time': times, 'comments': comment_texts}
         comment_df = pd.DataFrame(comment_dic)  # 转换成DataFrame格式
-        comment_df.to_csv('duye_comments.csv')  # 保存数据
+        comment_df.to_csv('all_comments.csv')  # 保存数据
         comment_df['comments'].to_csv('comment.csv', index=False)  # 将评论单独再保存下来，方便分词
         print(comment_df)
 
